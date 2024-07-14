@@ -1,0 +1,130 @@
+# Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Virtual environment directory
+venv/
+ENV/
+env/
+.venv/
+
+# Django static and media files
+staticfiles/
+media/
+
+# Database files
+*.sqlite3
+*.db
+
+# Secrets and environment variables
+.env
+.env.*
+
+# IDE and editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Node modules (if using frontend packages)
+node_modules/
+
+# Log files
+*.log
+*.pot
+*.py[co]
+*.so
+
+# Migrations
+**/migrations/
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Django extensions
+*.out
+*.pid
+
+# Distribution / Packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+pip-wheel-metadata/
+share/python-wheels/
+
+# Pytest
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+
+# Celery
+celerybeat-schedule
+
+# Sphinx documentation
+docs/_build/
+
+# Coveralls
+.coverage
+
+# Local configurations
+.local/
+
+# PyCharm and other JetBrains IDEs
+# User-specific stuff:
+.idea/*
+# except the shared settings
+!.idea/codeStyles
+!.idea/shelf
+!.idea/workspace.xml
+.idea/dataSources/
+.idea/dataSources.ids
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+
+# JetBrains Rider
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+.idea/caches
+
+# Folders
+.idea/system/
+.idea/proxyTargets/
+.idea/webServers.xml
+
+# Spyder project settings
+.spyproject/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Anaconda distribution
+anaconda3/
+
+# Local celerybeat schedule file
+celerybeat-schedule
